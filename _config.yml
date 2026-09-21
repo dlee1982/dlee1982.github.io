@@ -4,7 +4,8 @@
 
 title: David Lee
 tagline: Writing about software, and whatever else holds my attention.
-description: >- testing 
+# Shown to search engines and link previews, not on the page itself.
+description: >-
   Personal site and blog of David Lee.
 author: David Lee
 
