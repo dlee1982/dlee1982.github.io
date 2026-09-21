@@ -1,0 +1,44 @@
+# ============================================================
+#  EDIT THIS FILE FIRST — everything personal lives here.
+# ============================================================
+
+title: David Lee
+tagline: Writing about software, and whatever else holds my attention.
+description: >-
+  Personal site and blog of David Lee.
+author: David Lee
+
+# Your live URL. After you enable GitHub Pages, set these to match.
+# If your repo is named  <username>.github.io  leave baseurl empty.
+# If it's named anything else (e.g. "blog"), set baseurl: "/blog"
+url: "https://dlee1982.github.io"
+baseurl: ""
+
+# Links shown in the footer. Delete any you don't want.
+email: you@example.com
+github_username: dlee1982
+# linkedin_username: USERNAME
+# x_username: USERNAME
+
+# ------------------------------------------------------------
+# Build settings — you generally don't need to touch these.
+# ------------------------------------------------------------
+markdown: kramdown
+permalink: /:year/:month/:slug/
+timezone: America/New_York
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
